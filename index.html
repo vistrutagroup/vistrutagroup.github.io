@@ -1,9 +1,58 @@
-<!DOCTYPE html>
+
 <html>
 <head>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
+    .navbar-brand small {
+                padding-top: 0px;
+                display:block;
+                font-size:10px;
+            }
+*/
+            .navbar-brand {
+              line-height:12px;
+/*              padding-top:20px;*/
+              padding-bottom:5px;
+            }
+
+            .navbar-brand small {
+              display:block;
+              font-size:14px;
+              padding-top: 5px;
+              font-family: Brush Script MT, Brush Script Std, cursive;
+            }
+
+div.gallery {
+  margin: 5px;
+  
+  float: left;
+  width: 360px;
+    height: 350px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
     
-#example1 {
+    
+    
+    <style type="text/css">
+#my_centered_buttons { display: flex; justify-content: center; }
+        
+        #example1 {
   padding: 50px;
   background-image: url('4014514.jpg');
   background-repeat: no-repeat;
@@ -26,7 +75,7 @@
     
     #example4 {
   padding: 25px;
-  background: url(Black%20Background.jpg);
+  background: url(Blue.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,65 +86,112 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-    
-    
-    img {
-  max-width: 100%;
-  height: auto;
+    #example6 {
+  padding: 15px;
+ background: url(Black%20Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-    
+        
 </style>
-    
-    <style type="text/css">
-#my_centered_buttons { display: flex; justify-content: center; }
-</style>
-    
 </head>
-    
 <body>
-
-<h2 Style='text-align: center'>Vistruta Group</h2>
+<nav class="navbar navbar-default navbar-fixed-top">
+			<div class='container-fluid' >
+				<div class='navbar-header'>
+                    <a class='pull-left'><img class='img-circle' src='logo_2.PNG' width="40px" height="40px"></a>
+					<a class='navbar-brand' href="#" style='color: #4F0FD8;' >
+                        <font size='4'> VISTRUTA GROUP</font>
+                        
+                    </a>
+				
+				</div>
+			</div>
+		</nav>
+    
+    <h2 Style='text-align: center'>Vistruta Group</h2>
 <div id="example1">
-  <p style="text-align:center;font-size:29px;font-family:sans-serif;">Let Us Be The Basement Of Your Career</p>
-    <p style="text-align:center;font-family:monospace;font-size: 18px;">A Space For Learning & Getting Job</p>
+  <p style="text-align:center;font-size:29px;font-family:sans-serif;color: blue">Let Us Be The Basement Of Your Career</p>
+    <p style="text-align:center;font-family:monospace;font-size: 18px;color: dodgerblue">A Space For Learning & Getting Job</p>
 </div>
-
+ <div id="example4">
+  <h2 style="text-align:center;color:dodgerblue">WELCOME TO VISTRUTA GROUP</h2>
+</div>
 
 
     <div id="example3">
   <h2 style="text-align:center;color:dodgerblue">Free Demo Classes Every Sunday @11 A.M</h2>
-  <p style="color:white;text-align: center"> We will brief you about the expectations of industries  in you as a Design Engineer</p>
+  <p style="color:white;text-align: center"> We will brief you about the expectations of industries in you as a Design Engineer</p>
         <h2 style="text-align:center;color:dodgerblue">Next Batch</h2>  
         <p style="text-align:center;color:antiquewhite">1st Of Every Month 9AM</p>  
+<h2 style="text-align:center;color:greenyellow">For Online Training Contact Us.</h2>
+    </div>
+        <div id="example6">
+<div class="gallery">
+    <img src="new%20product.jpg" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">New Product</div>
+</div>
+
+<div class="gallery">
+    <img src="3Dmodeling.jpg" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">3D Modeling</div>
+</div>
+
+<div class="gallery">
+    <img src="3d.jpg" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">Drafting & Detailing</div>
+</div>
+
+<div class="gallery">
+    <img src="computer%20aided.png" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">Computer Aided Manufacuring</div>
+</div>
+
+    <div class="gallery">
+    <img src="Articulator/6.JPG" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">Value Engineering</div>
 </div>
     
+    <div class="gallery">
+    <img src="Articulator/4.JPG" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">Reverse Engineering</div>
+</div>
     
-   <img src="GDT.png" width="460" height="345">
+    <div class="gallery">
+    <img src="rapid.jpg" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">Rapid Prototyping</div>
+</div>
     
+    <div class="gallery">
+    <img src="File.png" alt="Cinque Terre" width="600" height="auto">
+ <div class="desc" style="color: white">Standard Dcumentation</div>
+        </div></div>
     
-    <div id="example4">
+     <div id="example3">
   <h2 style="text-align:center;color:dodgerblue">About Us</h2>
-  <p style="color:white">We provide the basic and advanced drawing reading skills and the proper application of GD&T tools to enhance the quality of the design which are actually using in the current mechanical industries</p>
+  <p style="color:white">We provide the basic and advanced drawing reading skills and the proper application of GD&T tools to enhance the quality of the design which are actually using in the current mechanical industries.</p>
+         <p style="color:white">Our team has over decades of total experience and expertise as a result of dealing with a plethora of complex projects. It is with this proficiency, we assist you at any stage of the project you wish to outsource to us. We have been taught to gel well and perpetrate a coordinated work, as our objective is to accomplish the task in the given time.</p>
 </div>
     
     <div id="example5">
-  <h2 style="text-align:center;">Contact Us</h2>
+  <h2 style="text-align:center;color: white">Contact Us</h2>
         
         
         <div class="a2a_kit a2a_kit_size_32 a2a_default_style" id="my_centered_buttons">
-<button  class='navbar-btn btn btn-primary' onclick="method1()"> 
-                                <a href='mailto:vistruta.karnataka@gmail.com' target='_blank' onclick='contactUs()' style='color: white;color: black;'><img src="email.png" width="25" height="28"></a>
+<button  class='navbar-btn btn btn-primary' onclick="method1()"  style="margin: 5px"> 
+                                <a href='https://api.whatsapp.com/send?phone=917022264061&text=Hello+My+Name?+My+Qualification?+My+Contact+Number?+Email+ID?' target='_blank' onclick='contactUs()' style='color: white;color: black;'><img src="whatsapp-footer.png" width="100px" height="40px"></a>
+                            </button>
+            
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" id="my_centered_buttons">
+<button  class='navbar-btn btn btn-primary' onclick="method1()" style="margin: 5px"> 
+                                <a href='mailto:vistruta.karnataka@gmail.com' target='_blank' onclick='contactUs()' style='color: white;color: black;'><img src="mail%20us.png" width="100px" height="40px"></a>
                             </button>
 </div>
         
-        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" id="my_centered_buttons">
-<button  class='navbar-btn btn btn-primary' onclick="method1()"> 
-                                <a href='https://api.whatsapp.com/send?phone=917022264061&text=Hello+My+Name?+My+Qualification?+My+Contact+Number?+Email+ID?' target='_blank' onclick='contactUs()' style='color: white;color: black;'><img src="whatsapp.png" width="25" height="28"></a>
-                            </button>
+        
             
             
 </div>
     </div>
-
 </body>
 </html>
